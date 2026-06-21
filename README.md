@@ -16,6 +16,10 @@ The single most common production breach in this stack is boring and universal: 
 - [MCP servers](#mcp-servers)
 - [Reference reading](#reference-reading)
 
+## Guides
+
+- [How to tell if your backend is leaking data (and fix it)](guides/find-backend-data-leaks.md) — a platform-by-platform checklist with a one-line command to confirm each leak.
+
 ## Why active-probe
 
 A linter that reads your rules file tells you what *might* be exposed. An **active probe** sends the exact unauthenticated request an attacker would and shows you the bytes that actually come back. Every tool in this list is:
