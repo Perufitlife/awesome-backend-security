@@ -16,6 +16,10 @@ The single most common production breach in this stack is boring and universal: 
 - [MCP servers](#mcp-servers)
 - [Reference reading](#reference-reading)
 
+## 🔍 Free audit
+
+Not sure if your backend is exposed? **[Open a free-audit request](https://github.com/Perufitlife/awesome-backend-security/issues/new?template=free-audit.yml)** with your URL and I'll run the matching auditor and post the findings + exact fixes back — free, read-only, nothing downloaded or changed. If you'd rather have the fixes done for you, there's a [$99 fixed-scope audit](https://perufitlife.github.io/supabase-security-skill/).
+
 ## Guides
 
 - [How to tell if your backend is leaking data (and fix it)](guides/find-backend-data-leaks.md) — a platform-by-platform checklist with a one-line command to confirm each leak.

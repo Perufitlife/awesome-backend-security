@@ -1,0 +1,44 @@
+name: "🔍 Request a free security audit"
+description: "Drop your backend URL and I'll run the matching open-source auditor and post the report here — free."
+title: "[Free audit] <your platform / URL>"
+labels: ["free-audit"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        I'll run the relevant active-probe auditor against your instance (a read-only, anonymous check — the same request any visitor's browser makes; nothing is downloaded or changed) and post the findings + the exact fixes back here. Free.
+  - type: input
+    id: url
+    attributes:
+      label: "Your backend URL"
+      description: "e.g. https://cms.example.com, https://your-app.convex.cloud, http://host:11434"
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: "Platform"
+      options:
+        - Strapi
+        - Directus
+        - Payload CMS
+        - Hasura
+        - Convex
+        - n8n
+        - Ollama
+        - Other / not sure
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: "Confirmation"
+      options:
+        - label: "I own or operate this instance (or have permission to have it audited)."
+          required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Anything else? (optional)"
+      placeholder: "Specific collections/endpoints you're worried about, etc."
