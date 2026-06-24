@@ -24,6 +24,7 @@ Not sure if your backend is exposed? **[Open a free-audit request](https://githu
 
 - [How to tell if your backend is leaking data (and fix it)](guides/find-backend-data-leaks.md) — a platform-by-platform checklist with a one-line command to confirm each leak.
 - [Is your Ollama server exposed?](guides/is-your-ollama-server-exposed.md) — 175,000+ instances run with no auth. Check yours in one command.
+- [Supabase is locking down public table access on Oct 30, 2026 — are you ready?](guides/supabase-public-schema-deadline-checklist.md) — pre-deadline checklist to find and fix anon-exposed tables.
 
 ## Why active-probe
 
